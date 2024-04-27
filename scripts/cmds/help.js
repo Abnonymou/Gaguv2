@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "Go-pro Bot\nType #join for support groupchat(You can also use link grom my bio) \nThank you for using the bot...";
+const doNotDelete = "GOATBOTV2";
 
 module.exports = {
 	config: {
