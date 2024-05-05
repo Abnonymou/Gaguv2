@@ -1,6 +1,5 @@
 const fs = require('fs');
 const moment = require('moment-timezone');
-const NepaliDate = require('nepali-date');
 
 module.exports = {
   config: {
@@ -25,18 +24,18 @@ module.exports = {
   },
 
   onStart: async function ({ message }) {
-    const botName = "Go-Pro Bot";
+    const botName = "𝗦𝗬𝗠𝗘𝗥 𝗔𝗜";
     const botPrefix = "#";
-    const authorName ="Zenitshu Agatsuma  (Arbin Niroula) ";
-    const authorFB = "FB.Me/niroularbin204";
-    const authorInsta = "niroularbin204";
-    const status = "In a relationship";
+    const authorName ="𝗦𝗬𝗠𝗘𝗥 𝗦𝗧𝗘𝗩𝗘 𝗕𝗘𝗥𝗢𝗡𝗗𝗢" ;
+    const authorFB = "https://www.facebook.com/SymerSteveBerondo";
+    const authorInsta = "Symerberondo";
+    const status = "single";
 
     const urls = JSON.parse(fs.readFileSync('zoro.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
 
     // Get current date and time in Asia/Kathmandu timezone
-    const now = moment().tz('Asia/Kathmandu');
+    const now = moment().tz('Asia/manila');
     const date = now.format('MMMM Do YYYY');
     const time = now.format('h:mm:ss A');
 
