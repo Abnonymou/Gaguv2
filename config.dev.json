@@ -17,7 +17,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100091606131817", 
+    "100080437087855", 
     "100052395031835"
   ],
   "whiteListMode": {
@@ -28,8 +28,8 @@
   "OWNER": "Kyle Bait-it",
   "AGE": "19",
   "GENDER": "MALE",
-  "nickNameBot": "[ # ] ◈ ➣ 𝗠𝗔𝗥𝗩𝗜𝗡 𝗕𝗢𝗧",
-  "FACEBOOK": "https://www.facebook.com/kyleyukaro",
+  "nickNameBot": "[ # ] ◈ ➣ 𝗦𝗬𝗠𝗘𝗥 𝗕𝗢𝗧",
+  "FACEBOOK": "",
   "prefix": "#",
   "database": {
     "type": "sqlite",
