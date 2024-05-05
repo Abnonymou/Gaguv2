@@ -13,7 +13,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message }) {
-	 var link = [ "https://i.ibb.co/KLzNNcJ/image.jpg"
+	 var link = [ "https://i.imgur.com/lgl5tCq.jpeg"
 ]
 
 let img = link[Math.floor(Math.random()*link.length)]
